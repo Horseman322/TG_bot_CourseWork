@@ -10,4 +10,5 @@ import java.util.List;
 @Repository
 public interface NotificationTaskRepository extends JpaRepository<NotificationTask, Long> {
     List<NotificationTask> findByNotificationDateEqualsAndDoneIsFalse(LocalDateTime dateTime);
+
 }

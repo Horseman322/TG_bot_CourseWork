@@ -11,3 +11,4 @@ CREATE TABLE notification_task (
 
 -- changeset oalekseenko:2
 create index notification_task_date_index on notification_task (notification_date);
+

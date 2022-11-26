@@ -10,4 +10,5 @@ public class TelegramBotConstants {
             "I will remind you about everything you ask me.\n" + PROBLEM_OCCURS_MSG;
     public static final String DATE_TIME_FORMAT = "dd.MM.yyyy HH:mm";
     public static final String REMINDER_TEXT_PATTERN = "([0-9\\.\\:\\s]{16})(\\s)(.+)";
+
 }
