@@ -8,4 +8,5 @@ public interface NotificationTaskService {
     NotificationTask saveTask(Long chatId, String message);
 
     void findTasksToRemind(Consumer<NotificationTask> consumer);
+
 }

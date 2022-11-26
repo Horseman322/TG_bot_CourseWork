@@ -20,4 +20,5 @@ public class DateTimeFromThePastException extends RuntimeException {
     protected DateTimeFromThePastException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
+
 }

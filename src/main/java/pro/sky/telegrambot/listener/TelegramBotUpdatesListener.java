@@ -124,5 +124,4 @@ public class TelegramBotUpdatesListener implements UpdatesListener {
                 notificationTask.getNotificationMessage(), notificationTask.getNotificationDate());
         sendMessage(notificationTask.getChatId(), reminderText);
     }
-
 }
